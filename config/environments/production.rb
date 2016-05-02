@@ -36,7 +36,7 @@ Rails.application.configure do
 
   # Action Cable endpoint configuration
   config.action_cable.url = 'wss://secure-escarpment-65189.herokuapp.com/cable'
-  config.action_cable.allowed_request_origins = [ 'https://secure-escarpment-65189.herokuapp.com/' ]
+  config.action_cable.allowed_request_origins = [ 'https://secure-escarpment-65189.herokuapp.com' ]
 
   # Don't mount Action Cable in the main server process.
   # config.action_cable.mount_path = nil
